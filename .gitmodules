@@ -1,11 +1,11 @@
 [submodule "src/MOM6"]
 	path = src/MOM6
-	url = https://github.com/alex-huth/MOM6.git
-	branch =   iOM4_with_bergs_merge_dev/gfdl
+	url = https://github.com/OlgaSergienko/MOM6.git
+	branch =   iom4
 [submodule "src/SIS2"]
 	path = src/SIS2
-	url = https://github.com/alex-huth/SIS2.git
-	branch = aeh_merge_iOM4_with_bergs_icepack1.3.3
+	url = https://github.com/OlgaSergienko/SIS2.git
+	branch = iom4
 [submodule "tools/matlab/gtools"]
 	path = tools/matlab/gtools
 	url = https://github.com/Adcroft/gtools.git
