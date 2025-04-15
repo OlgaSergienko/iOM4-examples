@@ -1,0 +1,19 @@
+cd MOM6/
+git fetch gfdl
+git checkout -b merge_gfdl
+git merge gfdl/dev/gfdl
+git branch -m merge_gfdl iom4
+git push olga iom4
+cd ../SIS2/
+git fetch gfdl
+git checkout -b merge_gfdl
+git merge gfdl/dev/gfdl
+git branch -m merge_gfdl iom4
+git push olga iom4
+cd ../
+git add MOM6 SIS2
+git commit
+vi .gitmodules # for changing pointing to Alex' repo's to mine
+git add .gitmodules # for changing pointing to Alex' repo's to mine
+git commit
+git push
