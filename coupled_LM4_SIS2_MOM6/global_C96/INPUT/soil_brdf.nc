@@ -1,0 +1,1 @@
+../../../.datasets/../../scratch/Nicole.Schlegel/work/Cryo_input_dataset/soil_brdf.nc

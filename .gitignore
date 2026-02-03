@@ -1,7 +1,9 @@
 # Build directory might optionally be placed here
-build*
+build/*
+!build/env_c5
 # Ignore .datasets
 .datasets
+c4
 # Ignore model output
 *.out
 CPU_stats
@@ -33,9 +35,12 @@ seaice.stats.*
 lcov.*
 
 #ignore currently-unused build scripts
-fms_build*
-ios_build*
-ios_setup.sh
-ocn_*
+!fms_build*
+!ios_build*
+!ios_setup.sh
+!ocn_*
 *~
 !build_all.sh
+cryo-examples
+ice_null
+ocean_null
